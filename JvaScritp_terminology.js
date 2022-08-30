@@ -20,10 +20,10 @@ newFunction(parameter1, parameter2);
 var a = true;
 
 //function vs method
--FUNCTION-
+
 function thisIsAFunction () {
 }
--METHOD-
+
 var object = {
     thisIsAMethod : function () {
     }
