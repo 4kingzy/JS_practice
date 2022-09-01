@@ -49,3 +49,14 @@ do {
 console.log(counterTwo);
 counterwo--;
 } while (counterTwo > 10);
+
+#FOR_EACH_LOOP
+//calling function
+function logTodos(i){
+    console.log(i);
+}
+todos.forEach(logTodos);
+//using whole forEach method
+todos.forEach(function(i){
+    console.log(i);
+})
