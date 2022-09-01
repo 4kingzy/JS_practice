@@ -1,4 +1,5 @@
-#FOR LOOP
+#FOR_LOOP
+
 var todos = [
 "eat",
 "sleep",
@@ -23,4 +24,20 @@ todos.pop();
 var todosLength = todos.length;
 for (var i=0; i < todosLength; i++) {
 todos.pop();
+}
+
+#WHILE_LOOP
+
+//upwards
+var counterOne = 0;
+while (counterOne < 10) {
+console.log(counterOne);
+counterOne++
+}
+
+//downwards
+var counterOne = 10;
+while (counterOne > 0) {
+console.log(counterOne);
+counterOne--
 }
