@@ -41,3 +41,11 @@ while (counterOne > 0) {
 console.log(counterOne);
 counterOne--
 }
+
+#DO_LOOP
+
+var counterTwo = 0;
+do {
+console.log(counterTwo);
+counterwo--;
+} while (counterTwo > 10);
