@@ -1,12 +1,11 @@
 #DOM_selectors
-DOM Selectors
 --------------
 getElementsByTagName
 getElementsByClassName
 getElementById
 
 querySelector
-querySelectorAll
+querySelectorAll  - mostly used nowdays
 
 getAttribute
 setAttribute
@@ -14,15 +13,15 @@ setAttribute
 ##Changing Styles
 style.{property} //ok
 
-className //best
-classList //best
+className //best   
+classList //best    - example: document.querySelector("h1").classList.add(".donkey");
 
 classList.add
 classList.remove
-classList.toggle
+classList.toggle   - .toggle is useful for toggling certain style
 
 ##Bonus
-innerHTML //DANGEROUS
+innerHTML //DANGEROUS   - changing something inside HTML
 
 parentElement
 children
