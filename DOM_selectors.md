@@ -27,3 +27,7 @@ parentElement
 children
 
 ##It is important to CACHE selectors in variables
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
+https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
