@@ -20,6 +20,7 @@ function eventListener () {
     var li = document.createElement("li");
     var btn = document.createElement("button");
         btn.innerHTML = "Remove";
+        btn.className = "delete";
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         li.appendChild(btn);
@@ -43,7 +44,6 @@ ul.addEventListener("click", function(e) {
       target.parentNode.remove();
     }
   });
-
 
 
 
