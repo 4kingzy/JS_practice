@@ -41,3 +41,9 @@ const age = 34;
 const pet = "horse";
 const greetingBest = `Hello ${name}! You seem to be ${age-10}. What a lovely ${pet} you have.`
 
+//default arguments
+function greet (name='', age= 30, pet="horse") {
+return `Hello ${name}! You seem to be ${age-10}. What a lovely ${pet} you have.`}
+//calling default argument
+greet();
+greet("john", 50, "monkey");
