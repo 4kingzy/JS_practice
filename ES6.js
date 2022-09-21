@@ -39,5 +39,5 @@ const c = {};
 const name = "Sally";
 const age = 34;
 const pet = "horse";
-const greetingBest = `Hello ${name}! You seem to be ${age}. What a lovely ${pet} you have.`
+const greetingBest = `Hello ${name}! You seem to be ${age-10}. What a lovely ${pet} you have.`
 
