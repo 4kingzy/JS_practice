@@ -52,3 +52,10 @@ greet("john", 50, "monkey");
 let sym = Symbol();
 let sym2 = Symbol("foo");
 let sym3 = Symbol("foo");
+
+//arrow functions
+const add = (a,b) => a+b;
+//or another way of arrow function
+const add = (a,b) => {
+return a+b;
+}
