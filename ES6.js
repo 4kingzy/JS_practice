@@ -35,3 +35,9 @@ const a = "Simon";
 const b = true;
 const c = {};
 
+//template strings
+const name = "Sally";
+const age = 34;
+const pet = "horse";
+const greetingBest = `Hello ${name}! You seem to be ${age}. What a lovely ${pet} you have.`
+
