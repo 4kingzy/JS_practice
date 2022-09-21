@@ -47,3 +47,8 @@ return `Hello ${name}! You seem to be ${age-10}. What a lovely ${pet} you have.`
 //calling default argument
 greet();
 greet("john", 50, "monkey");
+
+//symbol
+let sym = Symbol();
+let sym2 = Symbol("foo");
+let sym3 = Symbol("foo");
