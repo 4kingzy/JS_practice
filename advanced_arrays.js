@@ -20,3 +20,11 @@ console.log('map', mapArray);
 const filterArray = array.filter(num => num > 5);
 
 console.log ('filter', filterArray);
+
+//reduce
+
+const reduceArray = array.reduce((accumulator, num) => {
+    return accumulator + num 
+}, 5);
+
+console.log('reduce', reduceArray);
