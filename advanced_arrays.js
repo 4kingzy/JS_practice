@@ -11,8 +11,6 @@ console.log('for Each', newArray);
 
 //map
 
-const mapArray = array.map(num => {
-    return num * 2
-});
+const mapArray = array.map(num => num * 2);
 
 console.log('map', mapArray);
