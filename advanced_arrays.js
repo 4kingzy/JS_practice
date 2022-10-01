@@ -7,7 +7,7 @@ const newArray = array.forEach(num => {
     double.push(num * 2); 
 })
 
-console.log('for Each', newArray);
+console.log('for Each', double);
 
 //map
 
