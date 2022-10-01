@@ -5,7 +5,7 @@ if (experience > 90) {
 let wizardLevel= true;
 }
 
-//property of an object can be changed in constant variable with [obj.wizardLvl = true;]
+//property of an object can be changed in constant variable with [obj.wizardLvl = true;] <---- THIS IS A CHANGE ONLY MADE IN A CONSOLE!
 
 const obj = {
 player: "bobby";
