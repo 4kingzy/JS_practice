@@ -32,3 +32,12 @@ class Wizard extends Player {
 }
 const wizard1 = new Wizard('Shelly', 'Healer');
 const wizard2 = new Wizard('Dominique', 'Barbarian');
+
+
+//cloning a object
+
+let obj = {a:'a', b:'b', c: {deep: 'try and copy me'}};
+let clone = Object.assign({}, obj);
+let clone2 = {...obj};
+//deepcloning
+let superClone = JSON.parse(JSON.stringify(obj))
