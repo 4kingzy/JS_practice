@@ -6,7 +6,7 @@
 //Object Value and Object Entries
 //Object.keys
 let obj = {
-    username0 : "Maja",
+    username0: "Maja",
     username1: "Mario",
     username2: "Mahalec"
 }
